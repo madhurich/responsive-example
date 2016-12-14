@@ -35,7 +35,7 @@
 	
 
 	//enter the website owner's email here
-	$ownerEmail = 'owner@domain.com';
+	$ownerEmail = 'madhurichinthakindi332@gmail.com';
 	$subjectToOwner = 'user offer';
 	$subjectToUser = 'scheduled for promo code';
 	$bodyToOwner = 'From:' .$userName. '\r\n email:' .$userEmail.'\r\n scheduled to redeem promo code';
