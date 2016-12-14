@@ -1,0 +1,269 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.header-content{
+		text-transform: uppercase;
+	}
+span#contact{
+		font-weight: bold;
+	}
+
+span#call{
+	color: rgb(0, 75, 141);
+}
+span#num{
+	color: rgb(196, 18, 48);
+}
+.home{
+	background: url(../img/home.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-top: 20px solid rgb(196, 18, 48);
+	border-bottom: 20px solid rgb(0, 75, 141); 
+}
+.head-content{
+	color: rgb(0, 75, 141);
+}
+.head-content span{
+	color: rgb(196, 18, 48);
+}
+hr{
+	border-color: rgb(196, 18, 48);
+	border-width: 2px;
+}
+
+.head-content, .offer-content{
+	text-align: center;
+}
+
+.head-content h1, .head-content h2,
+.offer-content h4, .offer-content h6{
+	text-transform: uppercase;
+}
+
+.offer-content{
+	background-color: rgba(193, 0, 46, 0.9);
+	color: rgb(255,255,255);
+	padding: 10px;
+	
+}
+
+.offer-content span{
+	font-size: 5em;
+	text-transform: uppercase;
+	margin-top: -30px;
+}
+.form-content{
+	width: 50%; 
+	margin: 30px auto;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 0.3%;
+}
+
+form#form, .painters-content{
+	margin: 10px auto;
+}
+form#form{
+	width: 50%;
+}
+label{
+	text-transform: uppercase;
+}
+form button{
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	background-color: rgb(204, 0, 51);
+	width: 120px;
+}
+.save{
+	text-align: center;
+}
+.footer-content{
+	padding: 10px;
+	background-color: rgb(43, 95, 139);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	
+}
+.painter{
+	background-color: rgb(238,238,238);
+}
+.painters-content{
+	width: 55%;
+}
+.painters-content h4{
+	color: rgb(14, 76, 140);
+}
+.painters-content h3, ul li{
+	color: rgb(196, 18, 48);
+}
+
+footer{
+	background-color: rgb(204, 0, 51); 
+	padding:0;
+	text-align: center;
+	color: rgb(255,255,255);
+	border-bottom: 7px solid rgb(0,75,131);
+	margin-bottom: 25px;
+}
+footer p{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+footer p span{
+	font-size: 30px;
+}
+
+/* mobile phones when orientation is portrait */
+ @media (min-width:320px) and (max-width:767px){
+ 	h1{
+ 		font-size: 170%;
+ 	}
+ 	h2{
+ 		font-size: 120%;
+ 		margin-top: -1.5%;
+ 	}
+ 	h4{
+ 		font-size: 100%;
+ 	}
+ 	h6{
+ 		font-size: 90%;
+ 	}
+ 	hr{
+ 		margin-left: 20%;
+ 		margin-right: 20%; 
+ 		margin-top: -0.5%;
+ 	}
+ 	.header-content, .painters-content{
+ 		width: 90%;
+ 	}
+	.offer-content span{
+	 	font-size: 250%;	
+	 	} 
+	.offer-content{
+	 	padding: 0.5%;
+	 }	
+	.home, .painter, footer{
+		width: 100%;
+	}
+	.form-content{
+		width: 95%;
+	}
+	form#form{
+		width: 90%;
+		margin-right: 1%;
+	}
+	form button{
+		width: 50%;
+		font-size: 14px;
+	}
+	img{
+		width: 80%;
+		height: 10%;
+		margin-top: -0.2%;
+	}
+	.header-content{
+		text-align: center;
+	}
+	span#contact{
+		font-size: 150%;
+		margin-left: 10%;
+	}	
+}
+
+/* mobile phones when orientation is landscape */
+@media (min-width:480px) and (max-width:960px){
+	img{
+		width: 60%;
+		height: 7%;
+		margin-top: -0.2%;
+	}
+	hr{
+ 		margin-left: 30%;
+ 		margin-right: 30%; 
+ 	}
+
+ 	form#form{
+ 		width: 100%;
+ 		padding: 3%;
+ 		margin-left: 10%;
+ 	}
+ 	form button{
+		width: 30%;
+		font-size: 14px;
+	}
+	.space{
+		width: 70%;
+		margin-left: 1.5%;
+	}
+}
+
+/* ipads */ 
+@media (min-width:768px) and (max-width:1024px){
+	h1{
+		font-size: 190%;
+	}
+	h2{
+		font-size: 120%;
+		margin-top: -1.5%;
+	}
+	hr{
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+	.home, .painter, footer{
+		width: 100% !important;
+	}
+	.form-content{
+		width: 70%;
+		padding: 0.5%;
+	}
+	.offer-content{
+		padding: 2%;
+	}
+	.offer-content span{
+		font-size: 300%;
+	}
+	.header-content, .painters-content{
+		width: 90%;
+	}	
+	form#form{
+		width: 75%;
+	}
+	img{
+		width: 230%;
+		height: 50%;
+		margin-top: -0.2%;
+	}
+	span#contact{
+		font-size: 150%;
+	}	
+}
+
+/* desktops and larger desktops */
+@media (min-width: 1025px){
+	h2{
+		font-size: 170%;
+		margin-top: -1.5%;
+	}
+	hr{
+		margin: -5px 150px 10px 150px;
+	}
+	.header-content{
+		margin: 0 auto;
+		width: 55%;
+		text-transform: uppercase;
+	}
+	img{
+		width: 150%;
+		height: 10%;
+		margin-top: -3px;
+	}
+	span#contact{
+		font-size: 125%;
+	}
+	.footer-content p>span{
+		padding: 3.5%;
+	}
+}
